@@ -20,25 +20,9 @@ class CashRegister
         @items << item
       end
     end
-  #not needed using attr_accessor
-  #def total
-   # return @total
-  #  puts "The Current Total is $#{@total}."
-  #end
 
-  # #def add_item(item, price, quantity = 1)
-  #   @sub_total = price * quantity
-  #
-  #   self.total += @sub_total
-  #     if quantity > 1
-  #       while quantity > 0
-  #        @items << item
-  #        quantity -= 1
-  #       end
-  #     elsif
-  #       @items << item
-  #   end
-  # #end
+
+
 
   def apply_discount
 

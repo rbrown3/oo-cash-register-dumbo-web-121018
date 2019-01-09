@@ -52,4 +52,5 @@ class CashRegister
      @total -= @price
   end
 
-  end#end class
+  end
+  #end class
